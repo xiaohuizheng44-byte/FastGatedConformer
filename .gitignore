@@ -1,0 +1,26 @@
+# Data and generated artifacts
+data/
+logs/
+runs/
+*.ckpt
+*.pth
+*.pt
+*.npy
+*.npz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Generated manuscript files
+docs/bspc_submission/docx/
+docs/bspc_submission/rendered/
+docs/bspc_submission/plots/
